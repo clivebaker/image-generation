@@ -1,0 +1,18 @@
+
+<h3>Testing Image Generation</h3>
+
+<%= form_tag image_generate_path do -%>
+
+<div><%= label_tag :name %><br />
+<%= text_field_tag :name %></div>
+<div><%= label_tag :position %><br />
+<%= text_field_tag :position %></div>
+<div><%= label_tag :outof %><br />
+<%= text_field_tag :outof %></div>
+
+
+
+  <div><%= submit_tag 'Save' %></div>
+<% end -%>
+
+

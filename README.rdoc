@@ -1,0 +1,4 @@
+== Image Generation
+
+This is a sample app to generate images on the fly adding text to the images
+
