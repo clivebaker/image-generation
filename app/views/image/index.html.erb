@@ -3,8 +3,11 @@
 
 <%= form_tag image_generate_path do -%>
 
+
+
+
 <div><%= label_tag :name %><br />
-<%= text_field_tag :name %></div>
+<%=select_tag :name, options_for_select($names.collect{|c|  [c[:name], c[:id]]})%></div>
 <div><%= label_tag :position %><br />
 <%= text_field_tag :position %></div>
 <div><%= label_tag :outof %><br />
