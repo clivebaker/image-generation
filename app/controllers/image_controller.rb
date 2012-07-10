@@ -49,7 +49,7 @@ class ImageController < ApplicationController
 
 
     img.combine_options do |c|
-       c.font "Arial"
+       c.font "NettoComp-Regular"
        c.pointsize "14" 
        c.fill "white"   
        c.draw "text 115,65 '#{@name}'"
